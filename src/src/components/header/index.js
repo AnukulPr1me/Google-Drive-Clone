@@ -7,7 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AppsIcon from '@mui/icons-material/Apps';
-const index = (userPhoto) => {
+const index = ({userPhoto}) => {
   return (
     <div className='header'> 
       <div className='header_logo'>

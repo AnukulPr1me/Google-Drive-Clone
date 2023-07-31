@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header/index.js'
 import {useState} from 'react'
+import Sidebar from './components/sidebar'
 
 function App() {
   const [user, setUser] = useState({
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header userPhoto={user.photoURL}/>
+      <Sidebar/>
     </div>
   );
 }

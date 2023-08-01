@@ -1,10 +1,10 @@
-.sidebarItem{
+.sidebarItems{
     display: flex;
     padding: 10px 0;
     border-radius: 0 100px 100px 0;
 }
 
-.sidebarItem:hover{
+.sidebarItems:hover{
     background-color: rgba(0, 0, 0, 0.04);
 }
 

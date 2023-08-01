@@ -1,3 +1,10 @@
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+import 'firebase/compat/storage';
+
+
+
 const firebaseConfig = {
     apiKey: "AIzaSyD0KfkLd49dL0XVh09fNYVPKnkd-5AKekQ",
     authDomain: "drive-clone-4b4ed.firebaseapp.com",
@@ -11,8 +18,8 @@ const firebaseConfig = {
   const firebaseApp = firebase.initializeApp(firebaseConfig)
 
   const auth = firebase.auth()
-  const provider = new firebase.auth.GoogleAuthprovider()
+  const provider = new firebase.auth.GoogleAuthProvider()
   const storage = firebase.storage()
   const db = firebaseApp.firestore()
-
-  export { auth, provider, db, storage}
+  
+  export { auth, provider, db, storage }

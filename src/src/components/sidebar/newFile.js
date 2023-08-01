@@ -1,16 +1,18 @@
 import React from 'react'
-import AppsIcon from '@mui/icons-material/Apps';
+import AddIcon from '@mui/icons-material/Add';
 
-function newFile() {
+function NewFile() {
   return (
+
     <div className='newFile'>
         <div className='newFile_Container'>
-            <AppsIcon/>
+            <AddIcon/>
             {/*plus icon*/}
             <p>New</p>
         </div>
     </div>
   )
+    
 }
 
-export default newFile
+export default NewFile
